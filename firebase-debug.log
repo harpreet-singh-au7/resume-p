@@ -1,0 +1,17 @@
+[debug] [2022-07-31T17:30:11.676Z] ----------------------------------------------------------------------
+[debug] [2022-07-31T17:30:11.681Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\harpreet.s\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-07-31T17:30:11.682Z] CLI Version:   11.4.0
+[debug] [2022-07-31T17:30:11.682Z] Platform:      win32
+[debug] [2022-07-31T17:30:11.682Z] Node Version:  v16.16.0
+[debug] [2022-07-31T17:30:11.687Z] Time:          Sun Jul 31 2022 23:00:11 GMT+0530 (India Standard Time)
+[debug] [2022-07-31T17:30:11.688Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-31T17:30:11.897Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-31T17:30:11.899Z] > authorizing via signed-in user (simransingh12340@gmail.com)
+[debug] [2022-07-31T17:30:11.899Z] [iam] checking project resume-personal-7277b for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-07-31T17:30:11.908Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/resume-personal-7277b:testIamPermissions [none]
+[debug] [2022-07-31T17:30:11.908Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/resume-personal-7277b:testIamPermissions x-goog-quota-user=projects/resume-personal-7277b
+[debug] [2022-07-31T17:30:11.909Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/resume-personal-7277b:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-07-31T17:30:15.963Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/resume-personal-7277b:testIamPermissions 200
+[debug] [2022-07-31T17:30:15.963Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/resume-personal-7277b:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-07-31T17:30:15.965Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/resume-personal-7277b [none]
